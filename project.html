@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project — Vivaha Cine</title>
+    <meta name="description" content="View project details from Vivaha Cinematics' portfolio.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <header class="site-header">
+        <div class="header-container">
+            <nav class="nav-left">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html">Services</a>
+            </nav>
+            
+            <div class="logo">
+                <a href="index.html">VIVAHA CINE</a>
+            </div>
+            
+            <nav class="nav-right">
+                <a href="portfolio.html">Portfolio</a>
+                <a href="pricing.html">Pricing</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+
+            <button class="menu-toggle" aria-label="Toggle Menu">
+                <span class="hamburger"></span>
+            </button>
+        </div>
+        
+        <div class="mobile-menu">
+            <nav class="mobile-nav">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html">Services</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="pricing.html">Pricing</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content">
+
+        <!-- ============================================
+             PROJECT HERO
+             ============================================ -->
+        <section class="project-hero" id="project-hero">
+            <div class="project-hero-bg">
+                <img src="" alt="" class="project-hero-img" id="project-hero-img">
+                <div class="project-hero-overlay"></div>
+            </div>
+            <div class="project-hero-content">
+                <div class="project-hero-text-block">
+                    <a href="portfolio.html" class="project-hero-back">
+                        <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="1.2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="19" y1="12" x2="5" y2="12"></line>
+                            <polyline points="12 19 5 12 12 5"></polyline>
+                        </svg>
+                        <span>Back to Portfolio</span>
+                    </a>
+                    <span class="project-hero-category" id="project-hero-category"></span>
+                    <h1 class="project-hero-title" id="project-hero-title"></h1>
+                    <div class="project-hero-meta" id="project-hero-meta"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================
+             PROJECT CONTENT
+             ============================================ -->
+        <section class="project-content">
+            <div class="container">
+                <div class="project-layout">
+                    <div class="project-main">
+                        <h2 class="project-section-label">THE STORY</h2>
+                        <p class="project-description" id="project-description"></p>
+                        
+                        <div class="project-testimonial" id="project-testimonial">
+                            <blockquote class="project-quote"></blockquote>
+                            <span class="project-quote-author"></span>
+                        </div>
+                    </div>
+                    <aside class="project-sidebar" id="project-sidebar">
+                        <div class="project-sidebar-card">
+                            <span class="project-sidebar-label">Client</span>
+                            <span class="project-sidebar-value" id="project-client"></span>
+                        </div>
+                        <div class="project-sidebar-card">
+                            <span class="project-sidebar-label">Location</span>
+                            <span class="project-sidebar-value" id="project-location"></span>
+                        </div>
+                        <div class="project-sidebar-card">
+                            <span class="project-sidebar-label">Date</span>
+                            <span class="project-sidebar-value" id="project-date"></span>
+                        </div>
+                        <div class="project-sidebar-card">
+                            <span class="project-sidebar-label">Category</span>
+                            <span class="project-sidebar-value" id="project-category"></span>
+                        </div>
+                    </aside>
+                </div>
+
+                <div class="project-gallery" id="project-gallery"></div>
+            </div>
+        </section>
+
+        <!-- ============================================
+             PROJECT NAVIGATION
+             ============================================ -->
+        <section class="project-nav" id="project-nav">
+            <div class="container">
+                <div class="project-nav-links"></div>
+            </div>
+        </section>
+
+        <!-- ============================================
+             CTA
+             ============================================ -->
+        <section class="project-cta">
+            <div class="container">
+                <div class="project-cta-card">
+                    <span class="project-cta-eyebrow">YOUR STORY</span>
+                    <h2 class="project-cta-title">Let's create <br>something <span class="italic">beautiful</span></h2>
+                    <p class="project-cta-text">Every love story deserves to be told with care. Reach out and let's start a conversation about yours.</p>
+                    <a href="contact.html" class="project-cta-btn">
+                        <span>Inquire Now</span>
+                        <svg viewBox="0 0 24 24" width="14" height="14" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                            <polyline points="12 5 19 12 12 19"></polyline>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-col brand-col">
+                    <p class="footer-tagline">Timeless wedding cinematics for the new romantics.</p>
+                    
+                    <div class="footer-availability-box">
+                        <div class="footer-status">
+                            <span class="footer-status-dot"></span>
+                            <span class="footer-status-text">Now booking 2026 & 2027</span>
+                        </div>
+                        <a href="mailto:hello@vivahacinematics.com" class="footer-inquire-btn">
+                            Reserve your date
+                            <svg viewBox="0 0 24 24" width="14" height="14" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                                <polyline points="12 5 19 12 12 19"></polyline>
+                            </svg>
+                        </a>
+                    </div>
+                    
+                    <div class="footer-socials">
+                        <a href="https://www.instagram.com/vivaha.cinematics/" target="_blank" rel="noopener" aria-label="Instagram" class="social-circle">
+                            <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                            </svg>
+                        </a>
+                        <a href="https://youtube.com" target="_blank" rel="noopener" aria-label="YouTube" class="social-circle">
+                            <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path>
+                                <polyline points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polyline>
+                            </svg>
+                        </a>
+                        <a href="https://pinterest.com" target="_blank" rel="noopener" aria-label="Pinterest" class="social-circle">
+                            <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+                                <path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.41 7.61 11.162-.105-.949-.199-2.403.041-3.439.219-.937 1.406-5.957 1.406-5.957s-.359-.72-.359-1.781c0-1.663.967-2.907 2.17-2.907 1.025 0 1.518.769 1.518 1.689 0 1.029-.653 2.567-.992 3.992-.285 1.193.6 2.165 1.775 2.165 2.128 0 3.768-2.245 3.768-5.487 0-2.861-2.063-4.869-5.007-4.869-3.41 0-5.409 2.562-5.409 5.199 0 1.033.394 2.143.889 2.741.099.12.112.225.085.345-.09.375-.293 1.199-.334 1.363-.053.225-.172.271-.401.166-1.495-.69-2.433-2.878-2.433-4.617 0-3.765 2.737-7.224 7.887-7.224 4.14 0 7.362 2.955 7.362 6.9 0 4.116-2.599 7.429-6.208 7.429-1.213 0-2.354-.63-2.744-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146C9.57 23.812 10.763 24 12.017 24c6.62 0 11.988-5.367 11.988-11.987C24.005 5.367 18.636 0 12.017 0z"/>
+                            </svg>
+                        </a>
+                        <a href="mailto:hello@vivahacinematics.com" aria-label="Email" class="social-circle">
+                            <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                <polyline points="22,6 12,13 2,6"></polyline>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-col nav-col">
+                    <h4 class="footer-col-title">Navigate</h4>
+                    <nav class="footer-links">
+                        <a href="index.html">Home</a>
+                        <a href="about.html">About</a>
+                        <a href="services.html">Services</a>
+                        <a href="portfolio.html">Portfolio</a>
+                        <a href="pricing.html">Pricing</a>
+                        <a href="contact.html">Contact</a>
+                    </nav>
+                </div>
+
+                <div class="footer-col connect-col">
+                    <h4 class="footer-col-title">Connect</h4>
+                    <div class="footer-links">
+                        <a href="mailto:hello@vivahacinematics.com">hello@vivahacinematics.com</a>
+                        <a href="tel:+919789465591">+91 9789465591</a>
+                        <a href="https://www.instagram.com/vivaha.cinematics/" target="_blank" rel="noopener">@vivaha.cinematics</a>
+                        <a href="https://youtube.com" target="_blank" rel="noopener">YouTube Portfolio</a>
+                    </div>
+                </div>
+
+                <div class="footer-col studio-col">
+                    <h4 class="footer-col-title">Studio</h4>
+                    <div class="footer-studio-info">
+                        <span class="studio-info-item">Kodaikanal, Tamil Nadu</span>
+                        <span class="studio-info-item">Chettinad & Mahabalipuram</span>
+                        <span class="studio-info-item">Available Worldwide</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-giant-wrapper">
+                <div class="footer-giant-text">VIVAHA CINE</div>
+            </div>
+
+            <div class="footer-bottom">
+                <span class="footer-copyright">&copy; 2026 Vivaha Cinematics. All rights reserved.</span>
+                <span class="footer-craft">Designed by SCRATCH</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+    <script src="projects-data.js"></script>
+    <script src="project.js"></script>
+</body>
+</html>
